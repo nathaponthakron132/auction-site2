@@ -88,7 +88,7 @@
 </head>
 <body>
     <nav class="navbar">
-        <a class="navbar-brand" href="#">กระดานประมูล พระเครี่อง เครื่องรางของขลัง รหัส J2</a>
+        <a class="navbar-brand" href="#">กระดานประมูล พระเครี่อง เครื่องรางของขลัง รหัส J2 (ขยายภาพใหญ่คลิกรูปภาพ)</a>
     </nav>
 
     <div class="container"></div>
@@ -230,7 +230,7 @@
         async function initializeAuctionItems() {
             await fetchAuctionData();
             const container = document.querySelector('.container');
-            container.innerHTML = '<a href="https://nathaponthakron132.github.io/auction-site2/" class="btn-details">ไปหน้าที่ 3</a>';
+            container.innerHTML = '<a href="https://nathaponthakron132.github.io/auction-site3/" class="btn-details">ไปหน้าที่ 3</a>';
             for (let i = 1; i <= 50; i++) {
                 const itemData = auctionData[i - 1];
                 const endDate = calculateEndDate(i);
